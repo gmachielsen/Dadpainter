@@ -1,0 +1,150 @@
+#top,
+#bottom,
+#left,
+#right {
+    background: #13521e;
+    position: absolute;
+}
+
+
+    
+#left,
+#right {
+    top: 0;
+    bottom: 0;
+    width: 15px;
+}
+
+#left {
+    left: 0;
+}
+
+#right {
+    right: 0;
+}
+
+#top,
+#bottom {
+    left: 0;
+    right: 0;
+    height: 15px;
+}
+
+#top {
+    top: 0;
+}
+
+#bottom {
+    bottom: 0;
+}
+
+
+
+.titelpagina {
+    height: 100vh;
+}
+
+.titeltekst {
+    font-family: 'Great Vibes', cursive;
+    position: center;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+
+.ad-machielsen {
+    color: #807634;
+}
+
+.father-column {
+    text-align: center;
+    position: relative;
+}
+
+.father {
+    width: 85%;
+    height: 100%;
+    margin-top: 0%;
+    border: ridge;
+    filter: grayscale(90%);
+}
+
+.layer {
+    position: absolute;
+    font-family: 'Playfair Display', serif;
+    border: ridge;
+    top: 55%;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    width: 50%;
+    margin: 0 auto;
+    background-color: rgbs(255, 255, 255, .5);
+}
+
+.layer p {
+    color: #807634;
+}
+
+.navbar-inverse {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    font-family: 'Laila', serif;
+}
+
+
+/* Video {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+  }
+*/
+
+.menupagina {
+    height: 100vh;
+   
+}
+
+.container {
+    width: 100%;
+    height: 30%;
+    position: absolute;
+    color: red;
+}
+
+
+
+
+
+
+.bottom_button {
+    margin: 15px;
+    border-bottom: 15px;
+    opacity: 0.5;
+    box-sizing: border-box;
+    border-radius: 4px;
+    display: block;
+    background-color: rgba(129, 187, 201, .85);
+    text-align: center;
+    padding: 1em .75em;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+footer {
+    height: 50vh;
+}
+
+@media only screen and (min-width: 768px) {
+    .father {
+        width: 70%;
+        height: 30%;
+        
+    }
+}
