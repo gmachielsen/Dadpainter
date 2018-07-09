@@ -4,10 +4,24 @@ body, html {
   font: 400 15px/1.8 "Lato", sans-serif;
   color: #777;
 }
+.navbar.navbar-inverse {
+  background-color: #000000;
+  border: none;
+  font-family: 'Laila', serif;
+  margin-bottom: 0;
+  border-radius: 0;
+}
 
+.navbar-brand {
+  font-style: italic;
+  font-family: 'Great Vibes', cursive;
+  font-family: 'Tangerine', cursive;
+  color: gold;
+
+}
 .bgimg-1, .bgimg-2, .bgimg-3 {
   position: relative;
-  opacity: 0.80;
+  opacity: 0.65;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -17,24 +31,18 @@ body, html {
 .bgimg-1 {
   background-image: url("../images/schilderijen/buizerdjaja.jpg");
   min-height: 100%;
-  background-attachment: scroll
-  height: 211vh
 }
 
 .bgimg-2 {
-  background-image: url("../images/muurschilderingen/jipenjanneke.jpg");
+  background-image: url("../images/schilderijen/appels.jpg");
   min-height: 400px;
 }
 
 .bgimg-3 {
-  background-image: url("../images/muurschilderingen/lionkinggroot.jpg");
-  min-height: 400px;
+  background-image: url("../images/schilderijen/trekpaarden.jpg");
+  min-height: 600px;
 }
 
-.echt {
-  background-image: url("../images/schilderijen/trekpaarden.jpg");
-  min-height: 100px;
-}
 .caption {
   position: absolute;
   left: 0;
