@@ -1,331 +1,208 @@
 /*https://coolors.co/a4f4c8-fcf6b1-ffd92e-f72c25-2b1d38 */
 
 .title {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/schilderijen/pauw.jpg");
-  height: 95vh;
-  background-size: cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/schilderijen/pauw.jpg");
+    height: 95vh;
+    background-size: cover;
+}
+
+
+.h4 {
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
 
 .welkomstboodschap {
-  position: absolute;
-  left: 0;
-  top: 50%;
-  width: 100%;
-  text-align: center;
-  color: #000;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
 }
 
 .welkomstboodschap span.border {
-  background-color: transparent;
-  color: #fff;
-  padding: 18px;
-  font-size: 25px;
-  letter-spacing: 10px;
+    background-color: transparent;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
+.welkomstboodschap p {
+    text-shadow: 2px 2px 5px white;
 }
 
 .navbar.navbar-inverse {
-  background-color: #000000;
-  border: none;
-  font-family: 'Laila', serif;
-  margin-bottom: 0;
-  border-radius: 0;
+    background-color: #000000;
+    border: none;
+    font-family: 'Laila', serif;
+    margin-bottom: 0;
+    border-radius: 0;
 }
 
 .navbar-brand {
-  font-style: italic;
-  font-family: 'Great Vibes', cursive;
-  font-family: 'Tangerine', cursive;
-  color: gold;
+    font-style: italic;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Tangerine', cursive;
+    color: gold;
 
 }
 
 #titelpagina .navbar-inverse .navbar-nav>li>a {
-  color: #9d9d9d;
+    color: #9d9d9d;
+    font-family: 'Great Vibes', cursive;
 }
 
-.diensten {
-  text-align: center;
+.contactgegevens {
+    background-color: #d6d6d6;
+    min-width: 100vw;
+    margin: 0;
+}
+
+.fa {
+    font-family: 'Great Vibes', cursive
+}
+
+.contactdetails {
+    padding-top: 10px;
 }
 
 .top {
-  padding-top: 60px;
+    padding-top: 2px;
+}
+
+.top2 {
+    padding-bottom: 17px;
+}
+
+
+.diensten h1 {
+    text-align: center;
+    font-family: 'Tangerine', cursive;
+    font-weight: bold;
+    color: #758fb7;
+    font-size: 3em;
+    /*text-shadow: 0px 4px 3px rgba(0,0,0,0.4),*/
+    /*           0px 8px 13px rgba(0,0,0,0.1),*/
+    /*           0px 18px 23px rgba(0,0,0,0.1);*/
+}
+
+.uitlegdiensten h4 {
+    text-align: center;
+    font-family: 'Tangerine', cursive;
+    font-weight: bold;
+    color: gray;
+    /*text-shadow: 0px 4px 3px rgba(0,0,0,0.4),*/
+    /*           0px 8px 13px rgba(0,0,0,0.1),*/
+    /*           0px 18px 23px rgba(0,0,0,0.1);*/
+}
+
+.h3 {
+    font-family: 'Great Vibes';
+}
+
+.top {
+    padding-top: 60px;
 }
 
 .bodem {
-  padding-bottom: 60px;
+    padding-bottom: 60px;
 }
 
 .schilderijrond {
-  margin: 0 auto;
-  width: 120px;
-  height: 120px;
-  border: 7px solid #f1f1f1;
-  border-radius: 100%;
-  text-align: center;
-  background-image: url("../images/schilderijen/buizerdjaja.jpg");
-  background-size: cover;
+    margin: 0 auto;
+    width: 120px;
+    height: 120px;
+    border: 7px solid #f1f1f1;
+    border-radius: 100%;
+    text-align: center;
+    background-image: url("../images/schilderijen/buizerdjaja.jpg");
+    background-size: cover;
 }
 
 .muurschilderingrond {
-  margin: 0 auto;
-  width: 120px;
-  height: 120px;
-  border: 7px solid #f1f1f1;
-  border-radius: 100%;
-  text-align: center;
-  background-image: url("../images/muurschilderingen/lionkinggroot.jpg");
-  background-size: cover;
+    margin: 0 auto;
+    width: 120px;
+    height: 120px;
+    border: 7px solid #f1f1f1;
+    border-radius: 100%;
+    text-align: center;
+    background-image: url("../images/muurschilderingen/lionkinggroot.jpg");
+    background-size: cover;
 }
 
 .schilderslesrond {
-  margin: 0 auto;
-  width: 120px;
-  height: 120px;
-  border: 7px solid #f1f1f1;
-  border-radius: 100%;
-  text-align: center;
-  background-image: url("../images/schildersles/penseel.jpg");
-  background-size: cover;
+    margin: 0 auto;
+    width: 120px;
+    height: 120px;
+    border: 7px solid #f1f1f1;
+    border-radius: 100%;
+    text-align: center;
+    background-image: url("../images/schildersles/penseel.jpg");
+    background-size: cover;
 }
 
 .button {
-  background-color: gray;
-  /* Green */
-  background-position: center;
-  border-radius: 10px;
-  color: white;
-  padding: 13px 28px;
-  text-align: center;
-  text-decoration: blink;
-  display: inline-block;
-  font-size: 16px;
+    background-color: gray;
+    /* Green */
+    background-position: center;
+    border-radius: 10px;
+    color: white;
+    padding: 9px 47px;
+    text-align: center;
+    text-decoration: blink;
+    display: inline-block;
+    font-size: 16px;
 }
 
 .btn {
-  background-position: center;
+    background-position: center;
 }
 
 /*portfolio */
 
-.fotopaard {
-  Background-image: url("../images/schilderijen/polopaarden.jpg");
-  height: 50vh;
-  background-size: cover;
-
-}
-
 .gallerij {
-  position: absolute;
-  left: 0;
-  top: 50%;
-  width: 100%;
-  text-align: center;
-  color: #000;
-}
-.gallerij span.border {
-  background-color: transparent;
-  color: #fff;
-  padding: 18px;
-  font-size: 25px;
-  letter-spacing: 10px;
+    Background-color: Black;
+    Width: 100%;
+    Height: 100vh;
 }
 
-.timeline {
-    position: relative;
-    padding: 0;
-    list-style: none;
-}
-
-.timeline:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 40px;
-    width: 2px;
-    margin-left: -1.5px;
-    background-color: #f1f1f1;
-}
-
-.timeline>li {
-    position: relative;
-    margin-bottom: 50px;
-    min-height: 50px;
-}
-
-.timeline>li:before,
-.timeline>li:after {
-    content: " ";
-    display: table;
-}
-
-.timeline>li:after {
-    clear: both;
-}
-
-.timeline>li .timeline-panel {
-    float: right;
-    position: relative;
-    width: 100%;
-    padding: 0 20px 0 100px;
-    text-align: left;
-}
-
-.timeline>li .timeline-panel:before {
-    right: auto;
-    left: -15px;
-    border-right-width: 15px;
-    border-left-width: 0;
-}
-
-.timeline>li .timeline-panel:after {
-    right: auto;
-    left: -14px;
-    border-right-width: 14px;
-    border-left-width: 0;
-}
-
-.timeline>li .timeline-image {
-    z-index: 100;
-    position: absolute;
-    left: 0;
-    width: 80px;
-    height: 80px;
-    margin-left: 0;
-    border: 7px solid #f1f1f1;
-    border-radius: 100%;
+.titelgallerij h1 {
     text-align: center;
     color: #fff;
-    background-color: #1ee2e7;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px
 }
 
-.timeline>li .timeline-image h4 {
-    margin-top: 12px;
-    font-size: 10px;
-    line-height: 14px;
+.fotopaard {
+  Background-image: url("../images/schilderijen/moerings.JPG");
+  height: 69vh;
+  background-size: cover;
 }
 
-.timeline>li.timeline-inverted>.timeline-panel {
-    float: right;
-    padding: 0 20px 0 100px;
-    text-align: left;
+/*overad----*/
+
+#overad {
+    Background-color: Black;
+    Width: 100%;
+    Height: 30vh; 
 }
 
-.timeline>li.timeline-inverted>.timeline-panel:before {
-    right: auto;
-    left: -15px;
-    border-right-width: 15px;
-    border-left-width: 0;
-}
-
-.timeline>li.timeline-inverted>.timeline-panel:after {
-    right: auto;
-    left: -14px;
-    border-right-width: 14px;
-    border-left-width: 0;
-}
-
-.timeline>li:last-child {
-    margin-bottom: 0;
-}
-
-.timeline .timeline-heading h4 {
-    margin-top: 0;
-    color: inherit;
-}
-
-.timeline .timeline-heading h4.subheading {
-    text-transform: none;
-}
-
-.timeline .timeline-body>p,
-.timeline .timeline-body>ul {
-    margin-bottom: 0;
-}
-
-@media(min-width:768px) {
-    .timeline:before {
-        left: 50%;
+@media(min-width:800px) {
+    .title {
+        background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/schilderijen/appels.jpg");
+        height: 110vh;
+        background-size: cover;
+    }
     }
 
-    .timeline>li {
-        margin-bottom: 100px;
-        min-height: 100px;
+@media(min-width:800px) {
+    .fotopaard {
+        background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/schilderijen/polopaarden.jpg");
+        height: 70vh;
+        background-size: cover;
+    }
     }
 
-    .timeline>li .timeline-panel {
-        float: left;
-        width: 41%;
-        padding: 0 20px 20px 30px;
-        text-align: right;
-    }
-
-    .timeline>li .timeline-image {
-        left: 50%;
-        width: 100px;
-        height: 100px;
-        margin-left: -50px;
-    }
-
-    .timeline>li .timeline-image h4 {
-        margin-top: 16px;
-        font-size: 13px;
-        line-height: 18px;
-    }
-
-    .timeline>li.timeline-inverted>.timeline-panel {
-        float: right;
-        padding: 0 30px 20px 20px;
-        text-align: left;
-    }
-}
-
-@media(min-width:992px) {
-    .timeline>li {
-        min-height: 150px;
-    }
-
-    .timeline>li .timeline-panel {
-        padding: 0 20px 20px;
-    }
-
-    .timeline>li .timeline-image {
-        width: 150px;
-        height: 150px;
-        margin-left: -75px;
-    }
-
-    .timeline>li .timeline-image h4 {
-        margin-top: 30px;
-        font-size: 18px;
-        line-height: 26px;
-    }
-
-    .timeline>li.timeline-inverted>.timeline-panel {
-        padding: 0 20px 20px;
-    }
-}
-
-@media(min-width:1200px) {
-    .timeline>li {
-        min-height: 170px;
-    }
-
-    .timeline>li .timeline-panel {
-        padding: 0 20px 20px 100px;
-    }
-
-    .timeline>li .timeline-image {
-        width: 170px;
-        height: 170px;
-        margin-left: -85px;
-    }
-
-    .timeline>li .timeline-image h4 {
-        margin-top: 40px;
-    }
-
-    .timeline>li.timeline-inverted>.timeline-panel {
-        padding: 0 100px 20px 20px;
-    }
-}
+   
