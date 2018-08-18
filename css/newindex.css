@@ -53,6 +53,9 @@
     font-family: 'Great Vibes', cursive;
 }
 
+#titelpagina .navbar-inverse .navbar-nav>li>a:hover{color:white;} 
+/*{background: #555;}*/
+
 .contactgegevens {
     background-color: #d6d6d6;
     min-width: 100vw;
@@ -142,6 +145,12 @@
     background-size: cover;
 }
 
+.btn {
+    background-position: center;
+}
+
+.button:hover {background: #bcbcc3;}
+
 .button {
     background-color: gray;
     /* Green */
@@ -155,16 +164,14 @@
     font-size: 16px;
 }
 
-.btn {
-    background-position: center;
-}
+
 
 /*portfolio */
 
 .gallerij {
     Background-color: Black;
     Width: 100%;
-    Height: 100vh;
+    Height: 107vh;
 }
 
 .titelgallerij h1 {
@@ -181,14 +188,63 @@
   background-size: cover;
 }
 
+.ondertitelgallerij a {
+    /*padding-top:4px;*/
+    height: 95px;
+    background-color: transparent;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
+.onder2titelgallerij{
+    font-style: italic;
+    color: #9d9d9d;
+    font-family: 'Great Vibes', cursive;
+}
+
 /*overad----*/
 
 #overad {
-    Background-color: Black;
+    Background-color: white;
     Width: 100%;
-    Height: 30vh; 
+    Height: 60vh; 
 }
 
+#overad h1 {
+    font-family: 'Tangerine', cursive;
+    font-weight: bold;
+    color: #758fb7;
+    font-size: 3em;
+}
+
+    
+
+
+.adrond {
+    margin: 0 auto;
+    width: 120px;
+    height: 120px;
+    border: 7px solid #f1f1f1;
+    border-radius: 100%;
+    text-align: center;
+    background-image: url("../images/overad/ad.jpg");
+    transform: rotate(90deg);
+    background-size: cover;
+}
+
+.tekstad {
+    font-family: 'Tangerine', cursive;
+    font-weight: bold;
+    color: gray;
+}
+
+#prijzen {
+    Background-color: #d6d6d6;
+    Width: 100%;
+    Height: 10vh; 
+}
 @media(min-width:800px) {
     .title {
         background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/schilderijen/appels.jpg");
