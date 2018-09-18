@@ -53,7 +53,10 @@
     font-family: 'Great Vibes', cursive;
 }
 
-#titelpagina .navbar-inverse .navbar-nav>li>a:hover{color:white;} 
+#titelpagina .navbar-inverse .navbar-nav>li>a:hover {
+    color: white;
+}
+
 /*{background: #555;}*/
 
 .contactgegevens {
@@ -112,6 +115,59 @@
     padding-bottom: 60px;
 }
 
+.landschap{
+    width: 300px;
+    height: 300px;
+    /*border: 7px solid #f1f1f1;*/
+    text-align: center;
+    background-image: url("../images/schilderijen/koeien.jpg");
+    background-size: cover; 
+}
+
+/*.overlay {*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 10px;*/
+/*    right: 10px;*/
+/*    bottom: 0;*/
+/*    background-color: rgba(89,119,153,0);*/
+/*    -webkit-transition: all .35s;*/
+/*    -o-transition: all .35s;*/
+/*    transition: all .35s;*/
+/*}*/
+
+
+/* .overlay .copy {*/
+/*    position: relative;*/
+/*    top: 50%;*/
+/*    -webkit-transform: translateY(-50%);*/
+/*    -ms-transform: translateY(-50%);*/
+/*    -o-transform: translateY(-50%);*/
+/*    transform: translateY(-50%);*/
+/*    color: #FFF;*/
+/*    text-align: center;*/
+/*    padding: 0 10%;*/
+/*}*/
+
+/*.overlay .copy h3 {*/
+/*font-family: "Josefin Sans",sans-serif;*/
+/*    color: #fff;*/
+/*    margin: 0;*/
+/*    border: solid 1px #fff;*/
+/*    line-height: 100%;*/
+/*    padding: 20px;*/
+/*    opacity: 0;*/
+/*    -webkit-transition: opacity .35s,-webkit-transform .35s;*/
+/*    -o-transition: opacity .35s,-o-transform .35s;*/
+/*    transition: opacity .35s,transform .35s;*/
+/*    -webkit-transition-delay: .2s;*/
+/*    -o-transition-delay: .2s;*/
+/*    transition-delay: .2s;*/
+/*    -webkit-transform: translate(0,15px);*/
+/*    -ms-transform: translate(0,15px);*/
+/*    -o-transform: translate(0,15px);*/
+/*    transform: translate(0,15px);*/
+/*}*/
 .schilderijrond {
     margin: 0 auto;
     width: 120px;
@@ -149,7 +205,9 @@
     background-position: center;
 }
 
-.button:hover {background: #bcbcc3;}
+.button:hover {
+    background: #bcbcc3;
+}
 
 .button {
     background-color: gray;
@@ -169,7 +227,7 @@
 /*portfolio */
 
 .gallerij {
-    Background-color: Black;
+    Background-color: #222222;
     Width: 100%;
     Height: 107vh;
 }
@@ -183,9 +241,9 @@
 }
 
 .fotopaard {
-  Background-image: url("../images/schilderijen/moerings.JPG");
-  height: 69vh;
-  background-size: cover;
+    Background-image: url("../images/schilderijen/moerings.JPG");
+    height: 69vh;
+    background-size: cover;
 }
 
 .ondertitelgallerij a {
@@ -198,10 +256,11 @@
     letter-spacing: 10px;
 }
 
-.onder2titelgallerij{
+.onder2titelgallerij {
     font-style: italic;
     color: #9d9d9d;
     font-family: 'Great Vibes', cursive;
+    margin-top: -30px;
 }
 
 /*overad----*/
@@ -209,7 +268,7 @@
 #overad {
     Background-color: white;
     Width: 100%;
-    Height: 60vh; 
+    Height: 60vh;
 }
 
 #overad h1 {
@@ -219,7 +278,7 @@
     font-size: 3em;
 }
 
-    
+
 
 
 .adrond {
@@ -243,15 +302,94 @@
 #prijzen {
     Background-color: #d6d6d6;
     Width: 100%;
-    Height: 10vh; 
+    Height: 10vh;
 }
+
+
+#contact {
+    width: 100vw;
+    Background-color:gray;
+}
+
+/*#footer*/
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+footer {
+    background-color: #222222;
+    padding: 60px 0px;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0 auto;
+    display: inline;
+    padding-top: 50px;
+}
+
+.ib {
+    display: inline-block;
+}
+
+footer ul li {
+    float: left;
+}
+
+footer ul li a {
+    color: #b1aca1;
+    padding: 20px;
+}
+
+footer ul li a:hover {
+    color: #7dabdb;
+    text-decoration: none;
+}
+
+.footer-top {
+    padding-bottom: 50px;
+}
+
+.footer-top .fa {
+    font-size: 18px;
+    color: #FFF;
+    padding-right: 10px;
+}
+
+.footer-top a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.footer-top .col-sm-2:hover .fa,
+.footer-top .col-sm-2:hover a {
+    color: #7dabdb;
+}
+
+.copyright {
+    background-color: #f0f0f0;
+}
+
+.copyright p {
+    font-size: 12px;
+    padding: 15px 0 10px 0;
+}
+
+
+
+
+
+
+
 @media(min-width:800px) {
     .title {
         background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/schilderijen/appels.jpg");
         height: 110vh;
         background-size: cover;
     }
-    }
+}
 
 @media(min-width:800px) {
     .fotopaard {
@@ -259,6 +397,4 @@
         height: 70vh;
         background-size: cover;
     }
-    }
-
-   
+}
