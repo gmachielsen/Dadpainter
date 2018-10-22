@@ -1,5 +1,8 @@
 /*https://coolors.co/a4f4c8-fcf6b1-ffd92e-f72c25-2b1d38 */
 
+/*DIV {*/
+/*    opacity: 0;*/
+/*}*/
 .title {
     background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/schilderijen/pauw.jpg");
     height: 95vh;
@@ -11,6 +14,10 @@
     text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
 
+.overlay:hover {
+    background-color: yellow;
+}
+
 .welkomstboodschap {
     position: absolute;
     left: 0;
@@ -18,6 +25,7 @@
     width: 100%;
     text-align: center;
     color: #000;
+    animation: fadeUpIn 3s;
 }
 
 .welkomstboodschap span.border {
@@ -26,10 +34,12 @@
     padding: 18px;
     font-size: 25px;
     letter-spacing: 10px;
+    animation: fadeUpIn 3s;
 }
 
 .welkomstboodschap p {
     text-shadow: 2px 2px 5px white;
+    animation: fadeUpIn 3s;
 }
 
 .navbar.navbar-inverse {
@@ -59,147 +69,62 @@
 
 /*{background: #555;}*/
 
-.contactgegevens {
-    background-color: #d6d6d6;
-    min-width: 100vw;
-    margin: 0;
+/*.contactgegevens {*/
+/*    background-color: #d6d6d6;*/
+/*    min-width: 100vw;*/
+/*    margin: 0;*/
+/*}*/
+
+.fotobox {
+    padding-bottom: 23px;
+    padding-left: 10px;
 }
 
-.fa {
-    font-family: 'Great Vibes', cursive
-}
 
-.contactdetails {
-    padding-top: 10px;
-}
-
-.top {
-    padding-top: 2px;
-}
-
-.top2 {
-    padding-bottom: 17px;
-}
 
 
 .diensten h1 {
-    text-align: center;
-    font-family: 'Tangerine', cursive;
-    font-weight: bold;
-    color: #758fb7;
-    font-size: 3em;
+   padding-top:7%;
+   font-family: Tangerine;
+   font-size:2em;
+   font-weight:550;
+   text-transform:none;
+   letter-spacing:0px;
+   text-decoration:none;
+   line-height:1.2em;
+   text-align: center;
+   margin: 1em 0 .5em;
+   color: #b19b57;
+   font-style: italic;
+}
+   
     /*text-shadow: 0px 4px 3px rgba(0,0,0,0.4),*/
     /*           0px 8px 13px rgba(0,0,0,0.1),*/
     /*           0px 18px 23px rgba(0,0,0,0.1);*/
-}
+
 
 .uitlegdiensten h4 {
     text-align: center;
     font-family: 'Tangerine', cursive;
-    font-weight: bold;
+    font-weight: 400em;
+    vertical-align: 15px;
+    word-spacing: 1.5px;
     color: gray;
+    padding-bottom: 15px;
+    opacity: 1;
+  transition: opacity 4s linear;
     /*text-shadow: 0px 4px 3px rgba(0,0,0,0.4),*/
     /*           0px 8px 13px rgba(0,0,0,0.1),*/
     /*           0px 18px 23px rgba(0,0,0,0.1);*/
 }
 
-.h3 {
-    font-family: 'Great Vibes';
-}
-
-.top {
-    padding-top: 60px;
-}
-
-.bodem {
-    padding-bottom: 60px;
-}
-
-.landschap{
-    width: 300px;
-    height: 300px;
-    /*border: 7px solid #f1f1f1;*/
-    text-align: center;
-    background-image: url("../images/schilderijen/koeien.jpg");
-    background-size: cover; 
-}
-
-/*.overlay {*/
-/*    position: absolute;*/
-/*    top: 0;*/
-/*    left: 10px;*/
-/*    right: 10px;*/
-/*    bottom: 0;*/
-/*    background-color: rgba(89,119,153,0);*/
-/*    -webkit-transition: all .35s;*/
-/*    -o-transition: all .35s;*/
-/*    transition: all .35s;*/
-/*}*/
+/*//////////////*/
 
 
-/* .overlay .copy {*/
-/*    position: relative;*/
-/*    top: 50%;*/
-/*    -webkit-transform: translateY(-50%);*/
-/*    -ms-transform: translateY(-50%);*/
-/*    -o-transform: translateY(-50%);*/
-/*    transform: translateY(-50%);*/
-/*    color: #FFF;*/
-/*    text-align: center;*/
-/*    padding: 0 10%;*/
-/*}*/
 
-/*.overlay .copy h3 {*/
-/*font-family: "Josefin Sans",sans-serif;*/
-/*    color: #fff;*/
-/*    margin: 0;*/
-/*    border: solid 1px #fff;*/
-/*    line-height: 100%;*/
-/*    padding: 20px;*/
-/*    opacity: 0;*/
-/*    -webkit-transition: opacity .35s,-webkit-transform .35s;*/
-/*    -o-transition: opacity .35s,-o-transform .35s;*/
-/*    transition: opacity .35s,transform .35s;*/
-/*    -webkit-transition-delay: .2s;*/
-/*    -o-transition-delay: .2s;*/
-/*    transition-delay: .2s;*/
-/*    -webkit-transform: translate(0,15px);*/
-/*    -ms-transform: translate(0,15px);*/
-/*    -o-transform: translate(0,15px);*/
-/*    transform: translate(0,15px);*/
-/*}*/
-.schilderijrond {
-    margin: 0 auto;
-    width: 120px;
-    height: 120px;
-    border: 7px solid #f1f1f1;
-    border-radius: 100%;
-    text-align: center;
-    background-image: url("../images/schilderijen/buizerdjaja.jpg");
-    background-size: cover;
-}
+/*/////////////*/
 
-.muurschilderingrond {
-    margin: 0 auto;
-    width: 120px;
-    height: 120px;
-    border: 7px solid #f1f1f1;
-    border-radius: 100%;
-    text-align: center;
-    background-image: url("../images/muurschilderingen/lionkinggroot.jpg");
-    background-size: cover;
-}
 
-.schilderslesrond {
-    margin: 0 auto;
-    width: 120px;
-    height: 120px;
-    border: 7px solid #f1f1f1;
-    border-radius: 100%;
-    text-align: center;
-    background-image: url("../images/schildersles/penseel.jpg");
-    background-size: cover;
-}
 
 .btn {
     background-position: center;
@@ -224,44 +149,6 @@
 
 
 
-/*portfolio */
-
-.gallerij {
-    Background-color: #222222;
-    Width: 100%;
-    Height: 107vh;
-}
-
-.titelgallerij h1 {
-    text-align: center;
-    color: #fff;
-    padding: 18px;
-    font-size: 25px;
-    letter-spacing: 10px
-}
-
-.fotopaard {
-    Background-image: url("../images/schilderijen/moerings.JPG");
-    height: 69vh;
-    background-size: cover;
-}
-
-.ondertitelgallerij a {
-    /*padding-top:4px;*/
-    height: 95px;
-    background-color: transparent;
-    color: #fff;
-    padding: 18px;
-    font-size: 25px;
-    letter-spacing: 10px;
-}
-
-.onder2titelgallerij {
-    font-style: italic;
-    color: #9d9d9d;
-    font-family: 'Great Vibes', cursive;
-    margin-top: -30px;
-}
 
 /*overad----*/
 
@@ -281,34 +168,63 @@
 
 
 
-.adrond {
-    margin: 0 auto;
-    width: 120px;
-    height: 120px;
-    border: 7px solid #f1f1f1;
-    border-radius: 100%;
-    text-align: center;
-    background-image: url("../images/overad/ad.jpg");
-    transform: rotate(90deg);
-    background-size: cover;
+
+    
+
+
+
+.contact-section {
+    background-color: white;
+    padding-bottom: 55px;
 }
-
-.tekstad {
-    font-family: 'Tangerine', cursive;
-    font-weight: bold;
-    color: gray;
-}
-
-#prijzen {
-    Background-color: #d6d6d6;
-    Width: 100%;
-    Height: 10vh;
-}
-
-
 #contact {
     width: 100vw;
-    Background-color:gray;
+    
+}
+
+
+
+.contact h1 {
+    
+    font-family: Tangerine;
+    font-size: 3em;
+    font-weight: 550;
+    text-transform: none;
+    letter-spacing: 0px;
+    text-decoration: none;
+    line-height: 1.2em;
+    text-align: center;
+    margin: 1em 0 .5em;
+    color: #b19b57;
+    font-style: italic;
+}
+
+.contact hr{
+    width: 80%;
+}
+
+.contact p {
+    text-align: center;
+    font-family: 'Tangerine', cursive;
+    font-size: 1.5em;
+    vertical-align: 15px;
+    word-spacing: 1.5px;
+    color: gray;
+    padding-bottom: 5px;
+}
+
+.contactbox input {
+    padding: 10px;
+    background-color: white;
+    border: 3px solid black;
+}
+
+.contactbox input:hover {
+    background-color: black;
+    color:white;
+}
+.span:hover {
+    background-color: black;
 }
 
 /*#footer*/

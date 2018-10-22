@@ -1,0 +1,30 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+.navbar.navbar-inverse {
+  background-color: #000000;
+  border: none;
+  font-family: 'Laila', serif;
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+.navbar-brand {
+  font-style: italic;
+
+}
+ 
+
+
+
+
+
+.portretten {
+  padding-top: 50px;
+  padding-left: 50px;
+    padding-right: 50px;
+}
+
