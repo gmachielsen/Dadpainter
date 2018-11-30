@@ -5,41 +5,7 @@ body {
 }
 
 
-.title {
-    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/vogels/buizerdjaja.jpg");
-    height: 95vh;
-    background-size: cover;
-}
 
-
-.h4 {
-    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
-}
-
-.overlay:hover {
-    background-color: yellow;
-}
-
-.welkomstboodschap {
-    position: absolute;
-    left: 0;
-    top: 50%;
-    width: 100%;
-    text-align: center;
-    color: #000;
-}
-
-.welkomstboodschap span.border {
-    background-color: transparent;
-    color: #fff;
-    padding: 18px;
-    font-size: 25px;
-    letter-spacing: 10px;
-}
-
-.welkomstboodschap p {
-    text-shadow: 2px 2px 5px white;
-}
 
 .navbar.navbar-inverse {
     background-color: #000000;
@@ -66,6 +32,62 @@ body {
     color: white;
 }
 
+.H1 {
+     font-family: Tangerine;
+    font-size: 40px;
+    font-weight: 550;
+    text-transform: none;
+    letter-spacing: 0px;
+    text-decoration: none;
+    line-height: 1.2em;
+    text-align: center;
+    margin: 1em 0 .5em;
+    color: #b19b57;
+    font-style: italic;
+}
+
+
+.p {
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Tangerine', cursive;
+    font-weight: 400em;
+    vertical-align: 15px;
+    word-spacing: 1.5px;
+    color: gray;
+    padding-bottom: 15px;
+    opacity: 1;
+    transition: opacity 4s linear;
+}
+
+input {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: white;
+    border: 3px solid #555;
+    font-size: 18px;
+}
+
+input:hover {
+    background-color: gray;
+    color: white;
+}
+
+.span:hover {
+    background-color: black;
+}
+
+/*#footer*/
+
+.contactformulier input {
+    border: 3px solid #555;
+}
+
+.contactformulier textarea {
+    border: 3px solid #555;
+}
 
 
 
@@ -76,58 +98,6 @@ body {
 
 /*#footer*/
 
-
-
-footer {
-    background-color: #222222;
-    padding: 60px 0px;
-    text-align: center;
-}
-
-footer ul {
-    list-style: none;
-    margin: 0 auto;
-    display: inline;
-    padding-top: 50px;
-}
-
-.ib {
-    display: inline-block;
-}
-
-footer ul li {
-    float: left;
-}
-
-footer ul li a {
-    color: #b1aca1;
-    padding: 20px;
-}
-
-footer ul li a:hover {
-    color: #7dabdb;
-    text-decoration: none;
-}
-
-.footer-top {
-    padding-bottom: 50px;
-}
-
-.footer-top .fa {
-    font-size: 18px;
-    color: #FFF;
-    padding-right: 10px;
-}
-
-.footer-top a {
-    color: #FFF;
-    text-decoration: none;
-}
-
-.footer-top .col-sm-2:hover .fa,
-.footer-top .col-sm-2:hover a {
-    color: #7dabdb;
-}
 
 .copyright {
     background-color: #f0f0f0;
@@ -165,35 +135,3 @@ footer ul li a:hover {
 
 /*////////////////////////////////////////////////////*/
 
-input[type=text], select, textarea {
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */  
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-}
-
-/* Style the submit button with a specific background color etc */
-input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-/* When moving the mouse over the submit button, add a darker green color */
-input[type=submit]:hover {
-    background-color: #45a049;
-}
-
-/* Add a background color and some padding around the form */
-.container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-}
