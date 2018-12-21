@@ -179,7 +179,23 @@
     opacity: 1;
 }
 
+.mobile {
+        background-color: #555;
 
+}
+
+.underblock {
+    background-color: #555;
+   width: 100vw;
+   height: 50vh;
+    margin-bottom: 5%;
+}
+
+.botton .col-xs-12 botton {
+    width: 80%;
+    height: 5%;
+    
+}
 
 .diensten h1 {
     padding-top: 7%;
@@ -219,8 +235,10 @@
 
 .uitlegdiensten h4 {
     font-size: 25px;
+    /*font-size: 20px;*/
     text-align: center;
     font-family: 'Tangerine', cursive;
+    /*font-family: 'Cardo', cursive;*/
     font-weight: 400em;
     vertical-align: 15px;
     word-spacing: 1.5px;
@@ -291,8 +309,10 @@
 
 
 .p {
+    /*font-size: 20px;*/
     font-size: 25px;
     text-align: center;
+    /*font-family: 'Cardo', serif;*/
     font-family: 'Tangerine', cursive;
     font-weight: 400em;
     vertical-align: 15px;
@@ -340,7 +360,13 @@
     color: white;
 }
 
-input {
+.cbutton input:hover {
+    background-color: gray;
+    color: white;
+}
+
+
+.contactbox input {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 25px;
@@ -455,3 +481,14 @@ footer ul li a:hover {
     }
 }
 
+@media(min-width:800px) {
+    .mobile {
+       display: none;
+    }
+}
+
+@media(max-width:800px) {
+    .desktop {
+       display: none;
+    }
+}
