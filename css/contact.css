@@ -111,25 +111,20 @@ input:hover {
 
 
 
-
-
-
-@media(min-width:800px) {
-    .title {
-        background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/schilderijen/appels.jpg");
-        height: 110vh;
-        background-size: cover;
-        background-color: #f2f2f2;
+@media only screen and (min-width: 600px) {
+.mobile {
+   
+    display:none;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .desktop {
+        display:none;
     }
 }
 
-@media(min-width:800px) {
-    .fotopaard {
-        background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/schilderijen/polopaarden.jpg");
-        height: 70vh;
-        background-size: cover;
-    }
-}
+
+
 
 
 
